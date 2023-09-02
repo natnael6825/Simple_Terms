@@ -33,11 +33,3 @@ Welcome to the Simple Terms documentation! Simple Terms is a revolutionary solut
 4. **Advantages & Disadvantages**: Insights into the agreement's pros and cons.
 5. **Empowered Decision**: Users make informed choices with confidence.
 
-## Join Us
-
-Become part of the Simple Terms community:
-- Explore the codebase.
-- Report issues and suggest enhancements.
-- Together, let's simplify user agreements for everyone!
-
-Thank you for choosing Simple Terms, where understanding user agreements becomes simple and accessible.
