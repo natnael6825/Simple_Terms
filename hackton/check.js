@@ -32,7 +32,7 @@ function load(){
             const text =storedParagraph;
              
             // Send the text to your Flask app running on 127.0.0.1
-            fetch('http://127.0.0.1:5000', { // Assuming your Flask app is running on port 5000
+            fetch('https://290e-196-189-16-184.ngrok-free.app', { // Assuming your Flask app is running on port 5000
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
