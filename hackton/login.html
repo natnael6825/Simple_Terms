@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Terms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #333;
+            background-image: url("1.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transform: translate(20px, 250px);
+        }
+        
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .form h1 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        
+        .form input {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            margin-bottom: 10px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #000000;
+        }
+        
+        .form button {
+            width: 80%;
+            padding: 10px;
+            background-color: #4696e5;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .form button:hover {
+            background-color: #4696e5;
+        }
+        
+        .form a {
+            color: #333333;
+            text-decoration: none;
+        }
+        
+        .form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html">
+            <img src="images/arrow.jpg" alt="" style="height: 2pc;">
+        </a>
+        <div class="form">
+            <h1>Log In</h1>
+            <div style="transform: translate(0px,-15px); width: 10%; height: 100%; border: 3px black solid"></div>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <a href="form.html" style="text-decoration: none; background-color: #4696e5;width: 80%;
+            padding: 10px;
+            background-color: #4696e5;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;">Log In</a>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p>Forgot password? <a href="forgotPW.html">Password</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

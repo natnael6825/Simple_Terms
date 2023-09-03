@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Simple Terms</title>
+    <link rel="stylesheet" href="css2.css" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="css1.css" />
+    <link rel="stylesheet" href="css3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="check.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+            <a href="#" class="brand">
+                <img src="images/Brand.png" alt="" style="height: 9pc;">
+            </a>
+            <nav class="nav">
+                <button class="nav__toggle" aria-expanded="false" type="button">menu</button>
+                <ul class="nav__wrapper">
+                    <li class="nav__item"><a href="form.html">Dashboard</a></li>
+                    <li class="nav__item"><a href="index.html">logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper2" style="height: 600px;">
+        <h2>Summary</h2>
+        <textarea class="last" id="last" spellcheck="false" placeholder="The Summary is...." required style="width: 450px; height: 900px;"></textarea>
+    </div>
+    <script>
+        window.onload = function() {
+            load()
+        };
+        const textarea = document.querySelector("textarea");
+        textarea.addEventListener("keyup", e => {
+            textarea.style.height = "63px";
+            let scHeight = e.target.scrollHeight;
+            textarea.style.height = `${scHeight}px`;
+        });
+        const wrapper2 = document.querySelector("wrapper2");
+        wrapper2.addEventListener("keyup", e => {
+            wrapper2.style.height = "63px";
+            let scHeight = e.target.scrollHeight;
+            wrapper2.style.height = `${scHeight}px`;
+        });
+    </script>
+</body>
+
+</html>
