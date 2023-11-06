@@ -8,7 +8,7 @@ from flask_cors import CORS
 
 
 #temporary api-key. will be delete in the futre
-openai.api_key = "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"
+openai.api_key = "enter openai api key"
 
 
 app = Flask(__name__)
